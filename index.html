@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap" rel="stylesheet">
+    <title>Пример одноэкранного сайта со скидочным купоном</title>
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <a class="logo" id="close" href="https://www.obogrev.ru" target="_blank"><img src="./img/logo.png" alt="Логотип"></a>
+
+            <div class="phone">
+                <p class="phone-txt">Санкт-Петербург</p>
+                <p class="phone-phone"> +7 (812) 648-24-84</p>
+            </div>
+
+            <div class="phone">
+                <p class="phone-txt">Бесплатный по всей России</p>
+                <p class="phone-phone">  +7 (800) 555-32-84</p>
+            </div>
+
+            <a class="social-net" href="#"><img src="./img/vk.png" alt=""></a>
+
+            <a class="social-net" href="#"><img src="./img/whatsApp.png" alt=""></a>
+
+            <a class="social-net" href="#"><img src="./img/telegramm.png" alt=""></a>
+
+            <a href="#popup-form" class="btn-phone">Заказать звонок</a>
+
+        </div>
+
+        <div class="discount">
+
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+            <div class="arrow"></div>
+
+            <div class="disount-wrapper">
+                <h1 class="discount-title">Только 2 дня!</h1>
+
+                <div class="discount-txt-blosk">
+                    <h2 class="discount-txt"><span class="discount-span">Скидка 10% </span> на весь теплый пол и греющий кабель при заказе от 10 000 рублей</h2>
+                </div>
+
+                <div class="discount-txt-blosk">
+                    <h2 class="discount-txt">По промокоду <span class="discount-span bg-red">  OBOGREV10% </span></h2>
+                </div>
+                <button class="discount-copy-code">Скопировать промокод</button>
+                
+                <button class="discount-go-site"><a href="https://www.obogrev.ru" target="_blank">Перейти на сайт</a></button>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer-wrapper">
+
+                <div class="confidentiality">
+                    <a class="footer-link" href="#popup">Политика конфинденциальности</a>
+                    <!-- <span>|</span>
+                    <a class="footer-link" href="#">Разработка SilverDuck</a> -->
+                </div>
+
+                <a class="social-net" href="#"><img src="./img/youtube.png" alt=""></a>
+
+                <a class="social-net" href="#"><img src="./img/dzen.png" alt=""></a>
+
+                <a class="social-net" href="#"><img src="./img/rutube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-table" id="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <h2>Политика конфиденциальности и использования линых данных </h2>
+                <hr>
+                <ol>
+                    <li>Предмет соглашения</li>
+                    <li>Ваши права</li>
+                    <li>Наши права</li>
+                    <li>Ваши обязанности</li>
+                    <li>Наши обязанности</li> 
+                    <li> прочее, и прочее, и прочее</li> 
+                </ol>
+                <hr>
+            </div>
+
+            <div class="popup-close">
+                <a href="#close">+</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-table" id="popup-form">
+        <div class="popup-body">
+            <div class="popup-content">
+                <h2>Заказать звонок</h2>
+                <hr>
+
+                <div class="form-block">
+                    <form action="#">
+                        <input class="form-input" type="phone" placeholder="Номе телефона">
+                        <input class="form-input" type="text" placeholder="Как к вам обращаться?">
+                        <hr>
+                        <input class="form-btn" type="submit">
+                    </form>
+                    <hr>
+                    <p>Нажимая кнопку <span>Отправить</span> Вы подтверждаете ознакомление и согласие с нашей политикой конфиденциальности и обработкой персональных данных.</p>
+                </div>
+            </div>
+
+            <div class="popup-close">
+                <a href="#close">+</a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
