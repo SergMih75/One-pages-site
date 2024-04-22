@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .main {
     width: 1440px;
     margin: 0 auto;
